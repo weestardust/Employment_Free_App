@@ -7,7 +7,7 @@
 <html>
 
 <head>
-	<title>Cadastre-se</title>
+	<title>Fale Conosco</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="stylesheet" href="assets/css/main.css" />
@@ -15,10 +15,12 @@
 
 <body class="subpage">
 
+	
+
 	<!-- Header -->
 	<header id="header">
-		<div class="logo"><a href="index.html">
-			Employment <span>Free</span></a></div>
+		<div class="logo">
+		<a href="index.html">Employment <span>Free</span></div></a></div>
 		<a href="#menu">Menu</a>
 	</header>
 
@@ -26,8 +28,7 @@
 	<nav id="menu">
 		<ul class="links">
 			<li><a href="index.html">Home</a></li>
-			<li><a href="generic.html">Generic</a></li>
-			<li><a href="elements.html">Cadastre-se</a></li>
+			<li><a href="elements.html">Fale Conosco</a></li>
 		</ul>
 	</nav>
 
@@ -37,9 +38,9 @@
 			<div class="inner">
 
 				<header class="align-center">
-					<h1>Venha fazer parte da revolução</h1>
+					<h1><div id="imagem-logo"><img src="images\logo1.png" alt=""><br>
+						Mande-nos sua pergunta!</h1>
 				</header>
-
 
 				<div class="row 200%">
 					<div class="6u 12u$(medium)">
@@ -52,11 +53,13 @@
 									<input type="text" name="name" id="name" value="" placeholder="Nome" />
 								</div>
 								<div class="6u$ 12u$(xsmall)">
-									<input type="text" name="sobrenome" id="sobrenome" value="" placeholder="Sobrenome" />
+									<input type="text" name="sobrenome" id="sobrenome" value=""
+										placeholder="Sobrenome" />
 								</div>
 
 								<div class="6u 12u$(xsmall)">
-									<input type="date" name="data-nascimento" id="nascimento" value="" placeholder="Data de nascimento" />
+									<input type="date" name="data-nascimento" id="nascimento" value=""
+										placeholder="Data de nascimento" />
 								</div>
 								<div class="6u$ 12u$(xsmall)">
 									<input type="text" name="cpf" id="cpf" value="" placeholder="CPF" />
@@ -68,26 +71,7 @@
 								<div class="6u$ 12u$(xsmall)">
 									<input type="email" name="email" id="email" value="" placeholder="Email" />
 								</div>
-								
-								<!-- Break -->
 
-								<div class="6u 12u$(xsmall)">
-									<input type="text" name="rua" id="rua" value="" placeholder="Rua" />
-								</div>
-								<div class="6u$ 12u$(xsmall)">
-									<input type="text" name="bairro" id="bairro" value="" placeholder="Bairro" />
-								</div>
-								<div class="6u 12u$(xsmall)">
-									<input type="text" name="cidade" id="cidade" value="" placeholder="Cidade" />
-								</div>
-								<div class="6u$ 12u$(xsmall)">
-									<input type="text" name="estado" id="estado" value="" placeholder="Estado" />
-								</div>								
-								<div class="6u 12u$(xsmall)">
-									<input type="text" name="cep" id="cep" value="" placeholder="CEP" />
-								</div>
-
-								<!-- Break -->
 								<div class="12u$">
 									<div class="select-wrapper">
 										<select name="category" id="category">
@@ -101,6 +85,10 @@
 								<div class="6u$ 12u$(small)">
 									<input type="checkbox" id="human" name="human" checked>
 									<label for="human">Não sou um robô</label>
+								</div>
+								<div class="12u$">
+									<textarea name="message" id="message" placeholder="Faça sua pergunta!"
+										rows="6"></textarea>
 								</div>
 								<!-- Break -->
 								<div class="12u$">
